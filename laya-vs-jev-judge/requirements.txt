@@ -1,0 +1,17 @@
+strands-agents==1.57.1
+botocore[crt]==1.43.105
+typesafe-sdk==0.7.1
+laya==0.3.5
+laya-mlx==0.2.0
+numpy==2.5.3
+torch==2.14.0
+transformers==5.17.0
+jupyterlab==4.6.4
+ipykernel==7.4.0
+nbformat==5.11.1
+# indirect dependencies, pinned to patched releases
+pillow==12.3.0
+python-multipart==0.0.32
+nbconvert==7.17.1
+httpx2==2.13.1
+httpcore2==2.13.1

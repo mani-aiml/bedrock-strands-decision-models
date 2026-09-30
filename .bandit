@@ -1,0 +1,3 @@
+# Bandit settings. B101 (assert) is skipped because only the pytest suite uses assert; the demo code raises explicit errors.
+[bandit]
+skips = B101

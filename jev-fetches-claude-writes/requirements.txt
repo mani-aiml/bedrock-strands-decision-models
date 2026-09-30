@@ -1,0 +1,16 @@
+strands-agents==1.57.1
+typesafe-sdk==0.7.1
+python-dotenv==1.2.3
+pandas==3.0.6
+matplotlib==3.11.2
+ipykernel==7.4.0
+pytest==9.1.1
+nbformat==5.11.1
+botocore[crt]==1.43.105
+jupyterlab==4.6.4
+# indirect dependencies, pinned to patched releases
+pillow==12.3.0
+python-multipart==0.0.32
+nbconvert==7.17.1
+httpx2==2.13.1
+httpcore2==2.13.1

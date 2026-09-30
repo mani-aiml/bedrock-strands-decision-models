@@ -1,0 +1,26 @@
+# Secrets: API keys live only in each folder's .env
+.env
+
+# Environments, caches, editors
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Written by the demos at run time, never committed
+**/data/
+laya-finetune/plots/
+laya-finetune/runs/
+laya-finetune/logs/
+laya-vs-jev-judge/recording/
+jev-fetches-claude-writes/runs.csv
+jev-fetches-claude-writes/data.json
+jev-fetches-claude-writes/catalog.json
+*.log
+
+# Security scan reports, kept locally, never committed
+.protoshield/
+protoshield-report/
