@@ -1,6 +1,7 @@
 # bedrock-strands-decision-models
 
 **Disclaimer**: This is my personal work and in no means should be considered that of my employer. Its only for Demo purposes, so please run your tests carefully, before using it. 
+
 Four demos that pair a small, fast decision model (TypeSafe's Jev, or Convai's open-weights Laya) with Claude, built
 on the [Strands Agents](https://strandsagents.com) SDK with Claude on Amazon Bedrock. Each shows a cost or speed
 win you can reproduce: the decision model handles the high-volume choices, and Claude does only the work that needs it.
@@ -71,6 +72,7 @@ Clear notebook outputs so recorded results and printed data stay out of git:
 jupyter nbconvert --clear-output --inplace */*.ipynb
 ```
 **Disclaimer**: This is my personal work and in no means should be considered that of my employer. Its only for Demo purposes, so please run your tests carefully, before using it. 
+
 ## Licence
 
 MIT, see [LICENSE](LICENSE).
